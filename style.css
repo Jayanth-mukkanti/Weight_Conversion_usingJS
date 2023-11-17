@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: white;
+    padding-top: 100px;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.MainForm{
+    margin: 0 auto;
+    height: 175px;
+    width: 600px;
+    background-color: rgb(31, 30, 30);
+    padding-top: 30px;
+    border-radius: 10px;
+}
+#weight, #result{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.divElement{
+    display: flex;
+}
+#fromUnit{
+    width: 255px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 35px;
+    text-decoration: none;
+    -webkit-appearance: none;
+}
+#toUnit{
+    width: 255px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    -webkit-appearance: none;
+}
+#b1{
+    margin-top: 40px;
+}
+#b1:hover{
+    cursor: pointer;
+}

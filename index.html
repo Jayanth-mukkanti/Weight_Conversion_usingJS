@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <link rel="stylesheet" href="./style.css">
+    <title>JS Converter</title>
+</head>
+
+<body>
+    <h2 id="h2"> Weight Conversion </h2>
+
+    <div class="MainForm">
+        <input type="number" id="weight" required> &nbsp; &nbsp; <input type="number" id="result" readonly >
+        <div class="divElement">
+            <div class="form1">
+                <select name="" id="fromUnit">
+                    <!-- <option value="Select Unit">Select Unit</option> -->
+                    <option value="kg"> Kilograms (kg) </option>
+                    <option value="g">Grams (g)</option>
+                    <option value="lb">Pounds (lb)</option>
+                    <option value="ton">Tons (ton)</option>
+                </select>
+            </div>
+            <div class="form2">
+                <select name="" id="toUnit">
+                    <!-- <option value="Select Unit">Select Unit</option> -->
+                    <option value="kg"> Kilograms (kg) </option>
+                    <option value="g">Grams (g)</option>
+                    <option value="lb">Pounds (lb)</option>
+                    <option value="ton">Tons (ton)</option>
+                </select>
+            </div>
+        </div>
+        <button id="b1"> Convert </button>
+    </div>
+    <script src="./index.js"> </script>
+</body>
+</html>
